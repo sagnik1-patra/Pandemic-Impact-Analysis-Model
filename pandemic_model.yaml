@@ -1,0 +1,9 @@
+layers:
+- activation: relu
+  type: LSTM
+  units: 50
+- type: Dense
+  units: 1
+loss: mse
+model_type: LSTM
+optimizer: adam
